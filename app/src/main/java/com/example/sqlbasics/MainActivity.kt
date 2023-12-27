@@ -15,3 +15,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
+// Query to get parks with visitors less than 1,000,000
+private val QUERY_PARKS_LESS_THAN_MILLION = "SELECT * FROM park WHERE park_visitors < 1000000"
